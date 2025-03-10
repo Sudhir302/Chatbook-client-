@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-contact, .profile-more{
+    width: 20%;
+    margin-top: 20px;
+}
+
+.status-feed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

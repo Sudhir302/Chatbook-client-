@@ -1,0 +1,83 @@
+.message-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.message-box{
+    margin-top: 2rem;
+    width: 40%;
+    height: 70%;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 8px rgb(193, 193, 193);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.msg-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-msg{
+    width: 15rem;
+    border: none;
+    box-shadow: 1px 1px 8px rgb(193, 193, 193);
+    outline: none;
+    padding: .8rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    font-size: medium;
+}
+
+.sender{
+    padding: 1rem;
+    font-size: large;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 8px rgb(193, 193, 193);
+}
+
+.message{
+    flex: 1;
+    padding: 1rem;
+    border-radius: 1rem;
+    overflow-y: auto;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.sent{
+    background-color: #316FF6;
+    width: fit-content;
+    padding: .5rem;
+    font-size: medium;
+    color: white;
+    border-radius: 1rem;
+    align-self:flex-end;
+    margin-top: 1rem;
+}
+
+.received{
+    background-color: rgb(193, 193, 193);
+    width: fit-content;
+    padding: .5rem;
+    font-size: medium;
+    color: white;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.send-btn{
+    border: none;
+    padding: .6rem;
+    box-shadow: 1px 1px 8px rgb(193, 193, 193);
+    background-color:#316FF6;
+    color: white;
+    font-size: medium;
+    border-radius: .5rem;
+}

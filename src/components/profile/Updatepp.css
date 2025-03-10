@@ -1,0 +1,20 @@
+
+.pp-container form{
+    display: flex;
+    width: fit-content;
+    position: fixed;
+    top: 5rem;
+    right: 5rem;
+    
+}
+
+.pp-container form input{
+    width: fit-content;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    margin-right: 1rem;
+    box-shadow: 1px 1px 16px rgb(81, 81, 81);
+    font-size: medium;
+}

@@ -1,0 +1,23 @@
+.list-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container{
+    position: fixed;
+    top: 5rem;
+    right: 35rem;
+}
+
+.card{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.add, .username, .msg{
+    margin-left: 1rem;
+}

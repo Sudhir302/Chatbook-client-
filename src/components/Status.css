@@ -1,0 +1,30 @@
+.status-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 1px 6px black;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; 
+
+}
+
+.status input{
+    width: 600px;
+    height: 35px;
+    border-radius: 25px;
+    font-size:medium;
+    outline: none;
+    border: none;
+    margin-right: 20px;
+    background-color: rgba(197, 202, 207, 0.256);
+    padding: 20px;
+}

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgba(197, 202, 207, 0.256);
+    font-family: "Poppins", sans-serif
+}
+/* --------------------------globalcss--------------------------- */
+.txt-deco-none{
+    text-decoration: none;
+}
+/* --------------------------home----------------------------------- */
+
+.home-component{
+    width: 75px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+.home-component:hover{
+    background-color: rgba(197, 202, 207, 0.256);
+}
+/* ----------------------profile------------------------ */
+
+.profile-component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 20px;
+    background-color: rgba(197, 202, 207, 0.256);
+}
+
+.fixed{
+    position: sticky;
+    top: 0;
+}
+
+.overflow{
+    overflow-y:auto;
+    scrollbar-width: none;
+}
+
+.btn{
+    width: auto;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size:large;
+    border: none;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.username{
+    font-size: medium;
+    font-weight: bold;
+}
+
+/* ----------------logout-------------------- */
+
+/* ------------------------------hover------------------------------------------ */
+
+
+.on-hover{
+    cursor: pointer;
+}

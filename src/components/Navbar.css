@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100vw;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 6px black;
+    background-color: white;
+    z-index: 100;
+}
+
+
+.nav-search{
+    width: 33.33%;
+    display: flex;
+}
+
+.nav-home{
+    width: 33.33%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0;
+    color: rgb(88, 87, 87);
+    font-size: 20px;
+}
+
+.nav-profile{
+    width: 33.33%;
+    display: flex;
+    justify-content: right;
+}
+
+.mobile-navbar, .mobile-logo{
+    display: none;
+}

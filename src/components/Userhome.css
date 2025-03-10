@@ -1,0 +1,71 @@
+/* General container */
+.home-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* User cover section */
+.user-cover {
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-navbar{
+    z-index: 100;
+}
+
+/* Profile cover layout */
+.cover-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Cover image */
+.cover {
+    width: 1000px;
+    height: 450px;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+/* User profile image */
+.main-profile {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    outline: 0.5rem solid white;
+}
+
+/* User details (Profile image + Name) */
+.user-details {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 29.5rem;
+    left: 21rem;
+    z-index: 1;
+}
+
+/* User name styling */
+.user-details strong {
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 2rem;
+}
+
+/* User posts container */
+.user-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Status input container */
+.home-status {
+    width: 700px;
+    max-width: 90%;
+}
